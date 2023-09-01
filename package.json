@@ -1,0 +1,20 @@
+{
+  "name": "my-qwik-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@builder.io/qwik-city": "^1.2.10",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-external": "^1.2.8"
+  },
+  "dependencies": {
+    "@builder.io/qwik": "^1.2.6"
+  }
+}
